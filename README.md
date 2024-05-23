@@ -33,13 +33,13 @@ La representación del diagrama de casos de uso ilustra cómo los actores, es de
 
 En el diagrama de secuencia se puede ver al usuario como el actor principal en el uso de framework, debido a que proporciona la información necesaria, como el problema a evaluar, la ejecución independiente a realizar y los parámetros del ED. Cada objeto se activa a través de mensajes, estos mensajes son líneas horizontales con flechas que muestran la comunicación entre objetos, mostrando la activación de cada objeto con barras verticales y sus interacciones y secuencia en el tiempo. 
 
-![image](src/img/Diagrama de secuencia de UML.pdf)
+![image](https://github.com/celemibe/FrameworkDE_v1.0/blob/main/src/img/Diagrama%20de%20secuencia%20de%20UML.pdf)
 
 Una de las ventajas de la programación orientada a objetos es la encapsulación de tareas en elementos llamados clases. La encapsulación permite agrupar datos y métodos que operan sobre esos datos en una única unidad, facilitando la modularidad y la gestión del código. Esto no solo mejora la organización del código, sino que también aumenta su legibilidad y facilita el mantenimiento y la evolución del software.
 
 Las clases son una parte importante del desarrollo de la plataforma ED porque nos permiten reutilizar código. Al definir una clase, se pueden crear múltiples instancias de la misma, cada una con su propio estado, pero compartiendo el comportamiento definido en la clase. Esto promueve la reutilización del código, ya que los desarrolladores pueden utilizar clases existentes en nuevos contextos sin necesidad de duplicar esfuerzos.
 
-![image](src/img/UML class-DE.pdf)
+![image](https://github.com/celemibe/FrameworkDE_v1.0/blob/main/src/img/UML%20class-DE.pdf)
 
 
 
