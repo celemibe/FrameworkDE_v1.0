@@ -12,7 +12,7 @@ import com.abimelecperez.metaheuristics.de.Problem;
  * (-1 * x2) + (0.00954*x3) <= 0 <br> 
  * (-3.1416 * x3^2 * x4) - ((4/3) * 3.1416 * x3^3) + 1296000 <= 0 <br> 
  * x4 - 240 <= 0 <br> 
- * where: (1, 99),(1, 99),(10, 200),(10,200)
+ * where: (0.0625, 6.1875),(0.0625, 6.1875),(10, 200),(10,200)
  * 
  * <br> This class inherits the mechanisms of the Problem class.
  * 
@@ -24,7 +24,7 @@ import com.abimelecperez.metaheuristics.de.Problem;
 public class PressureVessel extends Problem{
 
     public PressureVessel() {
-        this.setBestKnownValue(6059.946); 
+        this.setBestKnownValue(5896.9489); 
         this.setNameProblem("Pressure Vessel");
         this.setFunction("(0.6224* x1 * x3 * x4) + (1.7781*x2*x3^2) + (3.1661*x1^2*x4) + (19.84*x1^2*x3)");                   //Función objetivo
         this.setOrderVariables("x1,x2,x3,x4");                   //Orden de sus variables        

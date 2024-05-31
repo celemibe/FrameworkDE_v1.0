@@ -17,18 +17,18 @@ public class Main {
          * Start setup...
          */
 
-        Problem problem = new TensionCompressionSpring();
+        Problem problem = new QuadraticallyConstrainedQuadraticProgram();
         Configurator configurator = new Configurator();
         /* The initial population is established.*/
         configurator.setSb(14);
         /* The value of the crossover factor is established.*/
-        configurator.setCr(0.9);
+        configurator.setCr(0.7);
         /* The value of the mutation factor is established.*/
         configurator.setMutationFactor(0.6);
         /* The value of the number evaluations is established.*/
-        configurator.setEvaluations(15000);
+        configurator.setEvaluations(20000);
         /*The number of executions is established*/
-        problem.setExecutions(3);
+        problem.setExecutions(30);
         /**
          * End setup...
          */
